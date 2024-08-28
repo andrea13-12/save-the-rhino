@@ -1,0 +1,89 @@
+@media (max-width: 1180px) {
+    body {
+        font-size: 14px; 
+    }
+    #texto h1{
+        font-size: 70px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    header {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .container{
+        padding: 30px;
+    }
+    .texto-grande {
+        font-size: 42px;
+    }
+
+    #texto h1{
+        font-size: 30px;
+        letter-spacing: 0.1px;
+    }
+
+    #nosotros{
+        text-align: center;
+    }
+
+    #nosotros h3 {
+        font-size: 20px;
+    }
+
+    #nosotros p{
+        padding: 10px;
+    }
+
+    .info-colab{
+        padding: 15px;
+    }
+    .box {
+        width: 100%; 
+    }
+
+    .col, .col-20, .col-30, .col-40, .col-50, .col-60, .col-70 {
+        flex-basis: 100%; 
+        max-width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .importancia-text {
+        font-size: 16px; 
+    }
+}
+
+@media (max-width: 480px) {
+
+    .texto-grande {
+        font-size: 32px;
+    }
+
+    .container {
+        padding: 30px;
+    }
+
+    #texto h1{
+        font-size: 30px;
+        letter-spacing: 0.1px;
+    }
+
+    .importancia-text {
+        padding: 10px; 
+    }
+
+    .col {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .img-fluid {
+        max-width: 100%;
+        height: auto;
+    }
+}
